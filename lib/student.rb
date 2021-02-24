@@ -6,15 +6,6 @@ class Student
 
   def initialize(hash)
     add_student_attributes(hash)
-    # @name = hash[:name]
-    # @location = hash[:location]
-    # @twitter = hash[:twitter]
-    # @linkedin = hash[:linkedin]
-    # @github = hash[:github]
-    # @blog = hash[:blog]
-    # @profile_quote = hash[:profile_quote]
-    # @bio = hash[:bio]
-    # @profile_url = hash[:profile_url]
     @@all << self
   end
 
