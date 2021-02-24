@@ -5,7 +5,7 @@ class Student
   @@all = []
 
   def initialize(hash)
-    add_student_attributes
+    add_student_attributes(hash)
     # @name = hash[:name]
     # @location = hash[:location]
     # @twitter = hash[:twitter]
